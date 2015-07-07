@@ -7,7 +7,7 @@
  * of each. Then the following operation could do on them:
  *  1. Translation
  *  2. Rotation
- *  2. Scaling
+ *  3. Scaling
  */
 #include "headers.h"
 
@@ -268,7 +268,7 @@ int main(int argc, char *argv[])
      * glutCreateWindow(char*) - creates a top-level window having the title
      *                           given as parameter.
      */
-    glutCreateWindow("Brasenham's Algorithm for Line Drawing");
+    glutCreateWindow("2-Dimensional Transformation");
 
     /**
      * gluOrtho2D(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top) -

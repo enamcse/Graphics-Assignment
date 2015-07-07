@@ -75,7 +75,6 @@ void ListEdges(void)
             edges.pb(edge((vertex[i].second<vertex[j].second? vertex[i].first:vertex[j].first),
             min(vertex[i].second,vertex[j].second), max(vertex[i].second,vertex[j].second),
             (vertex[j].first - vertex[i].first) / (vertex[j].second*1.0-vertex[i].second)));
-
     }
 
     set<int>todecrease;
@@ -87,9 +86,6 @@ void ListEdges(void)
     }
 
     for(auto now:todecrease) edges[now].ymax--;
-
-
-    return;
 }
 
 void scanline_algo()
