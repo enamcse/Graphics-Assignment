@@ -214,8 +214,8 @@ int main(int argc, char *argv[])
 
     for (int i = 1; i<n; i++)
     {
-        miny = miny = min(miny, vertex[i].second);
-        maxy = maxy = max(maxy, vertex[i].second);
+        miny = min(miny, vertex[i].second);
+        maxy = max(maxy, vertex[i].second);
     }
 
 

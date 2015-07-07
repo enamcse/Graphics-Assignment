@@ -165,7 +165,7 @@ int main(int argc, char *argv[])
      * glutCreateWindow(char*) - creates a top-level window having the title
      *                           given as parameter.
      */
-    glutCreateWindow("Brasenham's Algorithm for Line Drawing");
+    glutCreateWindow("Perspective Projection of a Cube");
 
     /**
      * gluOrtho2D(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top) -
