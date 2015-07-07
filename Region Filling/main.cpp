@@ -78,12 +78,12 @@ void ListEdges(void)
 
     }
 
-    vector<int>todecrease;
+    set<int>todecrease;
 
-    for(int i=0; i<vertex.size(); i++)
+    for(int i=0; i<edges.size(); i++)
     {
-        for (int j = 0; j<vertex.size(); j++)
-        if(edges[j].ymin==edges[i].ymax) todecrease.pb(i);
+        for (int j = 0; j<edges.size(); j++)
+        if(edges[j].ymin==edges[i].ymax) todecrease.insert(i);
     }
 
     for(auto now:todecrease) edges[now].ymax--;
