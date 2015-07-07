@@ -241,3 +241,20 @@
 	<_mingw.h>
 	<stddef.h>
 
+1436287880 source:f:\3-2\cse_374\graphics-assignment\animation\main.cpp
+	"headers.h"
+
+1436267703 f:\3-2\cse_374\graphics-assignment\animation\headers.h
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<cstring>
+	<sstream>
+	<vector>
+	<algorithm>
+	<cstdio>
+	<cctype>
+
